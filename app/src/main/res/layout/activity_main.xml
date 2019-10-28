@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="#000">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/monday"
+        android:background="@color/bcolor"
+        android:text="Monday"
+        android:textSize="@dimen/bsize"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/margin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tuesday"
+        android:text="Tuesday"
+        android:textSize="@dimen/bsize"
+        android:layout_below="@+id/monday"
+        android:background="@color/bcolor"
+        android:layout_margin="@dimen/margin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wednesday"
+        android:background="@color/bcolor"
+        android:text="Wednesday"
+        android:textSize="@dimen/bsize"
+        android:layout_below="@+id/tuesday"
+        android:layout_margin="@dimen/margin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/thursday"
+        android:text="Thursday"
+        android:textSize="@dimen/bsize"
+        android:layout_below="@id/wednesday"
+        android:background="@color/bcolor"
+        android:layout_margin="@dimen/margin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/friday"
+        android:text="Friday"
+        android:textSize="@dimen/bsize"
+        android:layout_below="@+id/thursday"
+        android:background="@color/bcolor"
+        android:layout_margin="@dimen/margin"
+        />
+
+</RelativeLayout>
