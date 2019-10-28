@@ -13,5 +13,7 @@
     <dimen name="tts">25dp</dimen>
     <dimen name="ml">4dp</dimen>
     <dimen name="mr">4dp</dimen>
+    <dimen name="rm">15dp</dimen>
+
 
 </resources>

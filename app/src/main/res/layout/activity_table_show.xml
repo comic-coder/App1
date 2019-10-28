@@ -22,8 +22,8 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:layout_gravity="center"
-           android:paddingBottom="5dp"
-           android:gravity="center">
+           android:gravity="center"
+           android:layout_marginBottom="@dimen/rm">
 
            <TextView
                 android:text="@string/p1"
@@ -43,7 +43,8 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:paddingBottom="5dp"
-           android:gravity="center">
+           android:gravity="center"
+           android:layout_marginBottom="@dimen/rm">
 
            <TextView
                android:text="@string/p2"
@@ -63,7 +64,7 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:gravity="center"
-           android:paddingBottom="5dp"
+           android:layout_marginBottom="@dimen/rm"
            >
 
            <TextView
@@ -84,7 +85,7 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:gravity="center"
-           android:paddingBottom="5dp"
+           android:layout_marginBottom="@dimen/rm"
            >
 
            <TextView
@@ -105,7 +106,7 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:gravity="center"
-           android:paddingBottom="5dp"
+           android:layout_marginBottom="@dimen/rm"
            >
 
            <TextView
@@ -142,7 +143,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p1"
@@ -160,7 +163,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p2"
@@ -177,7 +182,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p3"
@@ -194,7 +201,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p4"
@@ -226,7 +235,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p1"
@@ -244,6 +255,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
             >
 
             <TextView
@@ -261,7 +273,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p3"
@@ -278,7 +292,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p4"
@@ -295,7 +311,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p5"
@@ -329,7 +347,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p1"
@@ -346,7 +366,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p2"
@@ -363,7 +385,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p3"
@@ -380,7 +404,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p4"
@@ -412,7 +438,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p1"
@@ -431,7 +459,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p2"
@@ -448,7 +478,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p3"
@@ -465,7 +497,9 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/rm"
+            >
 
             <TextView
                 android:text="@string/p4"
